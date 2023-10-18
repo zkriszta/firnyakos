@@ -1,0 +1,251 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    background-image: url(images/hatter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.header-img {
+    position: relative;
+    margin: 3rem 1rem 2rem 1rem;
+}
+
+h1 {
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.navbar-custom .navbar-text {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    float: right;
+}
+
+.toggler-icon {
+    color: yellow;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.name {
+    color: yellow;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+/*about*/
+
+#about {
+    text-align: center;
+    height: 100%;
+    width: auto;
+    background-color: beige;
+    padding: 1rem 0 2rem 0;
+}
+
+.carousel-inner img {
+    height: 400px;
+    width: 500px;
+}
+
+/*restaurant*/
+
+#restaurant {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    width: auto;
+    height: 100%;
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-restaurant {
+    padding: 1rem 3rem;
+}
+
+.menu {
+    padding: 0 10rem;
+    font-size: 1.3rem;
+}
+
+#restaurant h2 {
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.food-img {
+    height: 50%;
+    width: 50%;
+    padding: 1rem 0;
+}
+
+.restaurant-img {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+.button {
+    width: 20%;
+}
+
+hr {
+    width: 20%;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+/*room*/
+
+#room {
+    text-align: center;
+    height: 100%;
+    width: auto;
+    background-color: beige;
+    padding: 1rem 0 2rem 0;
+}
+
+.about-room {
+    padding: 1rem 3rem;
+}
+
+.room-icon {
+    margin: .8rem;
+}
+
+.icon-title {
+    font-weight: 200;
+}
+
+.about-icon {
+    padding: 1rem;
+}
+
+.room-icon:hover {
+    color: grey;
+}
+
+#room h1 {
+    padding: 1rem 0;
+}
+
+
+/*contact*/
+
+#contact {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    padding: 1rem 0 2rem 0;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #161716;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 28%;
+}
+
+/* Floating column for inputs: 75% width */
+.col-55 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    left: 10%;
+
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.icons {
+    color: #161716;
+    margin-top: 1rem;
+}
+
+.information {
+    text-align: center;
+    justify-content: center;
+    line-height: 3rem;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    margin: 0;
+}
